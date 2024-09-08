@@ -19,9 +19,21 @@
   </div>
 
   <div id="page">
+  <div id="infobox">
+  <h2>Helpful tips</h2>
+  <ul>
+    <li><b>This tool does not convert wave tables</b>: it is meant for you to build your own out of individual .wav files.</li>
+	<li>Load all your custom .wav files at once (up to 15), trying to load them one by one will not do what you expect: the new file will keep overwriting 192.</li>
+	<li>Wave table is index based.</li>
+	<li>Wave forms can be copied by clicking the center of one and dragging.</li>
+	<li>Wave forms can be reordered by clicking their left and right sides and setting the proper index.</li>
+	<li>A number of built-in wave forms can be used: from 0 to 191.</li>
+	<li>The horizontal and vertical scrollbars select the wave to preview with the "Play" button.</li>
+	</ul>
+	<h3>Enjoy!</h3>
+	</div>
     <div id="editor" class="editorContainer">
-
-			<div class="editorPanel">
+		<div class="editorPanel">
 	      <h2>Custom waves</h2>
 	      <canvas id="wavetableCanvas"></canvas>
 				<h4>Generate from equation</h4>
