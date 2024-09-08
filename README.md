@@ -6,3 +6,7 @@ License
 MIT license.
 
 Original code by: Emilie Gillet (emilie.o.gillet@gmail.com)
+
+Hosted here:
+
+https://bloodbat.github.io/Funes-Editors/
