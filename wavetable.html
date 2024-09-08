@@ -52,14 +52,14 @@
 	          <li><input id="note" type="range" min="24" max="72" step="1" value="48" oninput="WavetableApp.updateParams();"><label for="note">Note</label></li>
 	        </ul>
 	      </div>
-	      <table>
-	        <tr>
-	          <td><input id="x" type="range" min="0" max="1" step="0.01" value="0.5" oninput="WavetableApp.updateParams();"></td>
-	          <td>&nbsp;</td>
-	        </tr>
+	      <table>	        
 	        <tr>
 	          <td><canvas id="mapCanvas"></canvas></td>
 	          <td><input id="y" type="range" min="0" max="1" step="0.01" value="0.5" oninput="WavetableApp.updateParams();"></td>
+			  <td>&nbsp;</td>
+	        </tr>
+			<tr>
+	          <td><input id="x" type="range" min="0" max="1" step="0.01" value="0.5" oninput="WavetableApp.updateParams();"></td>	          
 	        </tr>
 	      </table>
 	    </div>
